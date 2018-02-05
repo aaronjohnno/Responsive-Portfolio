@@ -240,63 +240,47 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
 
+  #logo {
+    width:30%;
+		margin-left:100px;
+  }
+  nav {
+    margin-right:130px;
+  }
+  .main-section {
+    max-width: 400px;
+    margin-left: 100px;
+  }
+  .sidebar {
+    float: left;
+    margin-left: 70px;
+  }
 }
-@media screen and (max-width: 768px) and (min-width: 640px) {
-  .container {
-    padding-left: 20px;
-  }
-  .nav {
-    float:none;
-    width: 640px;
-    padding-left: 20px;
-    margin-right: 0px;
-  }
-  .nav > li {
-    margin-left: 20px;
-    margin-right: 0px;
-  }
-  #main-container {
-    width: 640px;
-  }
-  .auth-image  {
-      padding-right: 20px;
-      width: 440px;
-      height: 440px;
-  }
-  .sidebar {
-      float: none;
-      clear: both;
-      width: 640px;
-  }
 
-@media screen (max-width: 640px) {
-  .container {
-    padding-left: 20px;
+@media screen and (max-width: 768px) {
+
+  #logo {
+    width:30%;
+		margin-left:100px;
   }
-  .nav {
-    float:none;
-    width: 480px;
-    padding-left: 20px;
-    margin-right: 0px;
+  nav {
+    margin-right:130px;
   }
-  .nav > li {
-    margin-left: 20px;
-    margin-right: 0px;
-    font-size: 14px;
-  }
-  #main-container {
-    width: 480px;
-  }
-  .auth-image  {
-      padding-right: 20px;
-      width: 440px;
-      height: 440px;
+	.main-section {
+    max-width: 400px;
+    margin-left: 100px;
   }
   .sidebar {
-      float: none;
-      clear: both;
-      width: 480px;
+    float: none;
+    margin-left: 70px;
+		
   }
+}
+
+
+
+
+
 /* @media screen tags, each with one of these max-widths: 980px, 768px and 640px. */
 /* Make the position of the header static (the default positioning) when the screen is 640px wide. */
 /* include the viewport tag in all your HTML files, */
