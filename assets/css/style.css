@@ -239,13 +239,12 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px) {
-
   #logo {
-    width:30%;
-		margin-left:100px;
+    width: 30%;
+    margin-left: 100px;
   }
   nav {
-    margin-right:130px;
+    margin-right: 130px;
   }
   .main-section {
     max-width: 400px;
@@ -258,29 +257,63 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 768px) {
-
   #logo {
-    width:30%;
-		margin-left:100px;
+    margin-left: 3%;
   }
-  nav {
-    margin-right:130px;
+  .auth-image {
+    width: 60%;
+    float: left;
   }
-	.main-section {
-    max-width: 400px;
-    margin-left: 100px;
+  .main-section {
+    max-width: 95%;
+    margin-left: 3%;
   }
   .sidebar {
-    float: none;
-    margin-left: 70px;
-		
+    float: left;
+    margin-left: 3% max-width: 95%;
+    ;
   }
 }
 
+@media screen and (max-width: 640px) {
+  header {
+    position: static;
+    width: 100%;
+  }
+  .main-section {
+    margin-top: 10%;
+  }
+  #logo {
+    width: 100%;
+    margin-left: none;
+  }
+  .auth-image {
+    width: 100%;
+  }
+  img {
+    width: 100%;
+    padding-right: 29px;
+  }
 
+nav {
+  width: 75%;
+  margin-left: 2%;
+  position: relative;
+  padding-bottom: 3%;
+}
 
+.social {
+  width: 86px;
+}
 
+.work {
+  width: 100%;
+}
+
+}
 
 /* @media screen tags, each with one of these max-widths: 980px, 768px and 640px. */
+
 /* Make the position of the header static (the default positioning) when the screen is 640px wide. */
+
 /* include the viewport tag in all your HTML files, */
